@@ -12,10 +12,10 @@ Welcome to my GitHub! I'm a passionate full stack developer who loves building c
 - 🌱 Always learning new technologies and frameworks
 - 💬 Ask me about JavaScript, HTML/CSS, APIs, and web dev in general
 - 📫 How to reach me:
-  - Website: https://usermigrated.com/ :contentReference[oaicite:1]{index=1}
-  - Twitter: [@saadifalcon](https://twitter.com/saadifalcon) :contentReference[oaicite:2]{index=2}
-  - Instagram: [@officialsaadchaudhry](https://www.instagram.com/officialsaadchaudhry) :contentReference[oaicite:3]{index=3}
-- 📍 Based in the United Kingdom 🇬🇧 :contentReference[oaicite:4]{index=4}
+  - Website: https://usermigrated.com/
+  - Twitter: [@saadifalcon](https://twitter.com/saadifalcon)
+  - Instagram: [@officialsaadchaudhry](https://www.instagram.com/officialsaadchaudhry)
+- 📍 Based in the United Kingdom 🇬🇧 
 
 ---
 
@@ -23,8 +23,8 @@ Welcome to my GitHub! I'm a passionate full stack developer who loves building c
 
 Here are some of the technologies I use:
 
-- **Languages:** JavaScript, HTML, CSS, PHP  
-- **Front-End:** React, Vanilla JS  
+- **Languages:** JavaScript, HTML, CSS, PHP, Laravel, JAVA, Spring Boot
+- **Front-End:** React, Vanilla JS 
 - **Back-End:** Node.js  
 - **Tools:** Git & GitHub  
 
@@ -44,12 +44,6 @@ Here are some projects I’ve created that I'm proud of:
 | **slack-notify** | A PHP script to send Slack notifications | :contentReference[oaicite:5]{index=5}
 
 *(Check out all my repos for more projects!)*
-
----
-
-## 📌 Why “usermigrated”?
-
-It represents my journey as a developer — migrating ideas from concept to reality, learning step-by-step, and continuously improving my skills.
 
 ---
 

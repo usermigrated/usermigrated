@@ -1,5 +1,12 @@
 // const path = require('path')
- 
+const isProd = process.env.NODE_ENV === 'production';
+
+
+module.exports = { basePath: isProd ? 'usermigrated' : '', 
+  assetPrefix: isProd ? 'usermigrated/' : '', 
+  images: { unoptimized: true, // GitHub Pages does not support Next.js image optimization 
+  }, 
+};
 // module.exports = {
 //   sassOptions: {
 //     includePaths: [path.join(__dirname, 'styles')],
@@ -24,13 +31,3 @@
 //     ],
 //   },
 // }
-
-/** @type {import('next').NextConfig} */
-const nextConfig = {
-  output: "export",
-  images: {
-    unoptimized: true,
-  },
-};
-
-module.exports = nextConfig;

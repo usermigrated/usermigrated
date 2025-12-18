@@ -1,5 +1,0 @@
-## Project setup
-
-```
-saad masood
-```

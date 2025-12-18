@@ -1,12 +1,5 @@
 // const path = require('path')
-const isProd = process.env.NODE_ENV === 'production';
-
-
-module.exports = { basePath: isProd ? 'usermigrated' : '', 
-  assetPrefix: isProd ? 'usermigrated/' : '', 
-  images: { unoptimized: true, // GitHub Pages does not support Next.js image optimization 
-  }, 
-};
+ 
 // module.exports = {
 //   sassOptions: {
 //     includePaths: [path.join(__dirname, 'styles')],
@@ -31,3 +24,17 @@ module.exports = { basePath: isProd ? 'usermigrated' : '',
 //     ],
 //   },
 // }
+
+
+/** @type {import('next').NextConfig} */
+const nextConfig = {
+  output: "export",
+  images: {
+    unoptimized: true, // required for static export
+  },
+  // optional: fix routing if your repo is not at the root of the domain
+  // basePath: "/<repo-name>",
+  // assetPrefix: "/<repo-name>/",
+};
+
+module.exports = nextConfig;

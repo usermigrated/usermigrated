@@ -1,0 +1,3 @@
+[build.environment]
+  NPM_FLAGS="--no-frozen-lockfile"
+  PNPM_FLAGS="--no-frozen-lockfile"
